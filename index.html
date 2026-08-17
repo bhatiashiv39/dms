@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chaiholic — Chai Spot in Rohtak</title>
+<meta name="description" content="Chaiholic, Model Town Rohtak. Masala chai, kulhad chai, shakes, snacks. Reserve a table or place an inquiry online.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Work+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="30" height="30">
+          <path d="M8 17h20a3 3 0 0 1 3 3v3a8 8 0 0 1-8 8H13a8 8 0 0 1-8-8v-3a3 3 0 0 1 3-3Z" fill="none" stroke="currentColor" stroke-width="2"/>
+          <path d="M31 19h2a3 3 0 0 1 0 8h-2" fill="none" stroke="currentColor" stroke-width="2"/>
+          <path class="steam-line s1" d="M14 13c-2-2-2-4 0-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <path class="steam-line s2" d="M20 13c-2-2-2-4 0-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </span>
+      Chaiholic
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#reserve">Reserve</a>
+      <a href="#visit">Visit</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <div id="authArea" class="auth-area">
+        <button class="btn btn-ghost" id="loginBtn" type="button">Log in</button>
+        <button class="btn btn-solid" id="signupBtn" type="button">Sign up</button>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="home">
+  <div class="hero-grain" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow">Model Town · Rohtak · Since 2019</p>
+      <h1>A city runs<br>on small cups<br><em>of chai.</em></h1>
+      <p class="hero-sub">Kulhad chai, cold coffee, cheese maggi and a corner table for however long you need it. Chaiholic has been Rohtak's chai stop since 2019 — now book your table or place a bulk order before you even walk in.</p>
+      <div class="hero-cta">
+        <a href="#reserve" class="btn btn-solid btn-lg">Reserve a table</a>
+        <a href="#menu" class="btn btn-outline btn-lg">See the menu</a>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 360 420" class="cup-svg">
+        <ellipse cx="180" cy="330" rx="86" ry="14" fill="var(--shadow)"/>
+        <path d="M70 150h190l-16 150a30 30 0 0 1-30 27H116a30 30 0 0 1-30-27L70 150Z" fill="var(--surface-2)" stroke="var(--cream)" stroke-width="2.5"/>
+        <path d="M78 158h174" stroke="var(--cream)" stroke-width="2" opacity="0.4"/>
+        <path d="M260 168h14a26 26 0 0 1 0 52h-14" fill="none" stroke="var(--cream)" stroke-width="2.5"/>
+        <path d="M96 150c6-24 30-24 42-40 12 16 36 16 42 40" fill="none" stroke="var(--saffron)" stroke-width="2" opacity="0.5"/>
+        <path class="steam s1" d="M130 140c-14-18-14-34 2-52" fill="none" stroke="var(--cream)" stroke-width="3" stroke-linecap="round"/>
+        <path class="steam s2" d="M168 140c-14-22-14-40 4-60" fill="none" stroke="var(--saffron)" stroke-width="3" stroke-linecap="round"/>
+        <path class="steam s3" d="M206 140c-14-18-14-34 2-52" fill="none" stroke="var(--cream)" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="about" id="about">
+  <div class="section-inner about-grid">
+    <div class="about-media" aria-hidden="true">
+      <div class="ticket">
+        <span class="ticket-label">Order slip</span>
+        <span class="ticket-row">Masala Chai <i></i> 2x</span>
+        <span class="ticket-row">Garlic Bread <i></i> 1x</span>
+        <span class="ticket-row">Table 6 <i></i> 40 min</span>
+        <span class="ticket-foot">Chaiholic · Model Town</span>
+      </div>
+    </div>
+    <div class="about-copy">
+      <p class="eyebrow">Our story</p>
+      <h2>Started with one kettle and a folding table.</h2>
+      <p>Chaiholic opened in Model Town in 2019 as a single kulhad-chai counter for students walking home from tuition. It grew into a full cafe — sandwiches, pasta, shakes, pizza — but the chai is still made the same way: full-fat milk, hand-crushed spices, and a kettle that never fully cools down.</p>
+      <p>We're mid-way through the biggest change since we opened: an online counter, so you can book a table before you leave home, or send us an inquiry for a group order, birthday booking, or franchise question without waiting on hold.</p>
+      <div class="about-stats">
+        <div><strong>2019</strong><span>Since</span></div>
+        <div><strong>11am–10pm</strong><span>Open daily</span></div>
+        <div><strong>4.3★</strong><span>Rated by regulars</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MENU ===== -->
+<section class="menu" id="menu">
+  <div class="section-inner">
+    <p class="eyebrow">The board</p>
+    <h2>What's brewing</h2>
+    <p class="section-lede">Prices are demo values set by the site owner — update them any time from the Supabase table without touching this page.</p>
+
+    <div class="menu-grid">
+      <div class="menu-card">
+        <h3>Chai &amp; Tea</h3>
+        <ul class="ledger">
+          <li><span>Masala Chai</span><i></i><b>₹40</b></li>
+          <li><span>Ginger Chai</span><i></i><b>₹40</b></li>
+          <li><span>Elaichi Chai</span><i></i><b>₹45</b></li>
+          <li><span>Kulhad Chai</span><i></i><b>₹50</b></li>
+          <li><span>Kesar Chai</span><i></i><b>₹60</b></li>
+          <li><span>Lemon Tea</span><i></i><b>₹40</b></li>
+        </ul>
+      </div>
+
+      <div class="menu-card">
+        <h3>Coffee &amp; Shakes</h3>
+        <ul class="ledger">
+          <li><span>Cold Coffee</span><i></i><b>₹99</b></li>
+          <li><span>Hazelnut Cold Coffee</span><i></i><b>₹129</b></li>
+          <li><span>Oreo Shake</span><i></i><b>₹139</b></li>
+          <li><span>KitKat Shake</span><i></i><b>₹149</b></li>
+          <li><span>Classic Mojito</span><i></i><b>₹99</b></li>
+        </ul>
+      </div>
+
+      <div class="menu-card">
+        <h3>Snacks &amp; Sandwiches</h3>
+        <ul class="ledger">
+          <li><span>Veg Grilled Sandwich</span><i></i><b>₹109</b></li>
+          <li><span>Paneer Grilled Sandwich</span><i></i><b>₹139</b></li>
+          <li><span>Garlic Bread</span><i></i><b>₹129</b></li>
+          <li><span>Maggi Masala</span><i></i><b>₹79</b></li>
+          <li><span>Cheese Maggi</span><i></i><b>₹99</b></li>
+        </ul>
+      </div>
+
+      <div class="menu-card">
+        <h3>Pizza, Pasta &amp; Burgers</h3>
+        <ul class="ledger">
+          <li><span>Margherita Pizza</span><i></i><b>₹179</b></li>
+          <li><span>Tomato Pizza</span><i></i><b>₹159</b></li>
+          <li><span>White Sauce Pasta</span><i></i><b>₹149</b></li>
+          <li><span>Red Sauce Pasta</span><i></i><b>₹139</b></li>
+          <li><span>Veg Burger</span><i></i><b>₹89</b></li>
+          <li><span>Paneer Burger</span><i></i><b>₹109</b></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== RESERVATION ===== -->
+<section class="reserve" id="reserve">
+  <div class="section-inner reserve-grid">
+    <div class="reserve-copy">
+      <p class="eyebrow">Book ahead</p>
+      <h2>Reserve a table</h2>
+      <p>Tell us when you're coming and how many. We'll hold the table and confirm on your phone — no account required, though logging in fills this in for you next time.</p>
+      <ul class="reserve-points">
+        <li>Confirmation sent to your phone number</li>
+        <li>Free to cancel or change up to 1 hour before</li>
+        <li>Groups over 10 — use the inquiry form below instead</li>
+      </ul>
+    </div>
+
+    <form class="card form" id="reservationForm" novalidate>
+      <div class="form-row">
+        <label for="resName">Name</label>
+        <input type="text" id="resName" name="name" placeholder="Your name" required>
+      </div>
+      <div class="form-row">
+        <label for="resPhone">Phone number</label>
+        <input type="tel" id="resPhone" name="phone" placeholder="10-digit mobile number" required pattern="[0-9]{10}">
+      </div>
+      <div class="form-row form-row-split">
+        <div>
+          <label for="resDate">Date</label>
+          <input type="date" id="resDate" name="date" required>
+        </div>
+        <div>
+          <label for="resTime">Time</label>
+          <input type="time" id="resTime" name="time" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <label for="resGuests">Guests</label>
+        <select id="resGuests" name="guests" required>
+          <option value="">Select party size</option>
+          <option>1</option><option>2</option><option>3</option><option>4</option>
+          <option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="resNotes">Notes <span class="optional">(optional)</span></label>
+        <textarea id="resNotes" name="notes" rows="2" placeholder="Birthday, window seat, allergies…"></textarea>
+      </div>
+      <button type="submit" class="btn btn-solid btn-lg btn-block">Confirm reservation</button>
+      <p class="form-status" id="resStatus" role="status"></p>
+    </form>
+  </div>
+</section>
+
+<!-- ===== VISIT / MAP ===== -->
+<section class="visit" id="visit">
+  <div class="section-inner visit-grid">
+    <div class="visit-copy">
+      <p class="eyebrow">Find us</p>
+      <h2>Come in from the street.</h2>
+      <div class="info-list">
+        <div class="info-row">
+          <span class="info-label">Address</span>
+          <span>Opp. Raymond Showroom, D-Park, Model Town, Rohtak, Haryana 124001</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Hours</span>
+          <span>Open daily, 11:00 AM – 10:00 PM</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Phone</span>
+          <span><a href="tel:+917015554930">+91 70155 54930</a></span>
+        </div>
+      </div>
+      <a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&query=Chaiholic+Model+Town+Rohtak" target="_blank" rel="noopener">Open in Google Maps</a>
+    </div>
+    <div class="visit-map">
+      <iframe
+        title="Chaiholic location map"
+        src="https://www.google.com/maps?q=Chaiholic%20Model%20Town%20Rohtak%20Haryana%20124001&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT + INQUIRY ===== -->
+<section class="contact" id="contact">
+  <div class="section-inner contact-grid">
+    <div class="card form" id="contactCard">
+      <p class="eyebrow">Quick message</p>
+      <h2>Ask us anything</h2>
+      <form id="contactForm" novalidate>
+        <div class="form-row">
+          <label for="cName">Name</label>
+          <input type="text" id="cName" name="name" required>
+        </div>
+        <div class="form-row">
+          <label for="cContact">Phone or email</label>
+          <input type="text" id="cContact" name="contact" required placeholder="So we can reply">
+        </div>
+        <div class="form-row">
+          <label for="cMessage">Message</label>
+          <textarea id="cMessage" name="message" rows="3" required placeholder="What's on your mind?"></textarea>
+        </div>
+        <button type="submit" class="btn btn-solid btn-block">Send message</button>
+        <p class="form-status" id="contactStatus" role="status"></p>
+      </form>
+    </div>
+
+    <div class="card form" id="inquiryCard">
+      <p class="eyebrow">Bulk &amp; business</p>
+      <h2>Inquiry form</h2>
+      <p class="card-lede">Catering, birthday bookings, franchise questions, or vendor pitches — this goes straight to the owner, separate from table bookings.</p>
+      <form id="inquiryForm" novalidate>
+        <div class="form-row">
+          <label for="iName">Name</label>
+          <input type="text" id="iName" name="name" required>
+        </div>
+        <div class="form-row form-row-split">
+          <div>
+            <label for="iEmail">Email</label>
+            <input type="email" id="iEmail" name="email" required>
+          </div>
+          <div>
+            <label for="iPhone">Phone</label>
+            <input type="tel" id="iPhone" name="phone" pattern="[0-9]{10}" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="iType">Inquiry type</label>
+          <select id="iType" name="type" required>
+            <option value="">Select one</option>
+            <option value="catering">Catering / bulk order</option>
+            <option value="event">Birthday or event booking</option>
+            <option value="franchise">Franchise / partnership</option>
+            <option value="feedback">Feedback</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="iMessage">Details</label>
+          <textarea id="iMessage" name="message" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-outline btn-block">Submit inquiry</button>
+        <p class="form-status" id="inquiryStatus" role="status"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="section-inner footer-inner">
+    <div>
+      <a href="#home" class="brand brand-footer">Chaiholic</a>
+      <p>Model Town, Rohtak · Chai spot since 2019</p>
+    </div>
+    <div class="footer-links">
+      <a href="#menu">Menu</a>
+      <a href="#reserve">Reserve</a>
+      <a href="#visit">Visit</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer-contact">
+      <a href="tel:+917015554930">+91 70155 54930</a>
+      <span>TeamChaiholic@gmail.com</span>
+    </div>
+  </div>
+  <p class="footer-fine">Demo site built for Chaiholic — not the cafe's official page.</p>
+</footer>
+
+<!-- ===== AUTH MODAL ===== -->
+<div class="modal-backdrop" id="authBackdrop">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="authTitle">
+    <button class="modal-close" id="authClose" aria-label="Close">×</button>
+    <div class="modal-tabs">
+      <button class="modal-tab active" id="tabLogin" type="button">Log in</button>
+      <button class="modal-tab" id="tabSignup" type="button">Sign up</button>
+    </div>
+
+    <h3 id="authTitle" class="sr-only">Account access</h3>
+
+    <form id="loginForm" class="modal-form">
+      <div class="form-row">
+        <label for="loginEmail">Email</label>
+        <input type="email" id="loginEmail" required>
+      </div>
+      <div class="form-row">
+        <label for="loginPassword">Password</label>
+        <input type="password" id="loginPassword" required minlength="6">
+      </div>
+      <button type="submit" class="btn btn-solid btn-block">Log in</button>
+      <p class="form-status" id="loginStatus" role="status"></p>
+    </form>
+
+    <form id="signupForm" class="modal-form hidden">
+      <div class="form-row">
+        <label for="signupName">Name</label>
+        <input type="text" id="signupName" required>
+      </div>
+      <div class="form-row">
+        <label for="signupEmail">Email</label>
+        <input type="email" id="signupEmail" required>
+      </div>
+      <div class="form-row">
+        <label for="signupPhone">Phone</label>
+        <input type="tel" id="signupPhone" pattern="[0-9]{10}" required>
+      </div>
+      <div class="form-row">
+        <label for="signupPassword">Password</label>
+        <input type="password" id="signupPassword" required minlength="6">
+      </div>
+      <button type="submit" class="btn btn-solid btn-block">Create account</button>
+      <p class="form-status" id="signupStatus" role="status"></p>
+    </form>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -4,8 +4,8 @@
    URL and anon (public) key. Find them in:
    Supabase Dashboard → Project Settings → API
    ========================================================= */
-const SUPABASE_URL = "https://YOUR-PROJECT-REF.supabase.co";
-const SUPABASE_ANON_KEY = "YOUR-SUPABASE-ANON-KEY";
+const SUPABASE_URL = "https://xwqjrtmdxccitsnqpjdo.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_1z-abaNVe6CgB9JrIO2IrA__p4YlSn8";
 
 const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
